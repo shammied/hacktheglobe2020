@@ -2,8 +2,10 @@
 
 ## Landing page
 
-![Landing page](landing.png | =100x200)
+<img src="landing.png" width="100" height="100">
+
 
 ## Contact experts
 
-![Talk to dialysis experts](experts.png | =100x200)
+<img src="experts.png" width="100" height="100">
+
