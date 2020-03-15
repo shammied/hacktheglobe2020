@@ -7,12 +7,12 @@ Di-Ally is a mobile application that aims to help improve access and increase su
 
 When patients first log in, they can enter their location and view nearby volunteers on the map. Volunteers have information about their training, qualifications, and the number of recommendations they have recieved.
 
-<img src="landing.png" width="300" height="600">
+<img src="landing.png" width="350" height="600">
 
 
 ## Contact experts
 
 Another feature of this app is the ability to communicate with experts and recieve quick feedback on questions and concerns about their treatment.
 
-<img src="experts.png" width="300" height="600">
+<img src="experts.png" width="350" height="600">
 
