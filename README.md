@@ -2,10 +2,10 @@
 
 ## Landing page
 
-<img src="landing.png" width="100" height="100">
+<img src="landing.png" width="400" height="600">
 
 
 ## Contact experts
 
-<img src="experts.png" width="100" height="100">
+<img src="experts.png" width="400" height="600">
 
