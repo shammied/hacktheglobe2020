@@ -1,5 +1,5 @@
 # Hack the Globe 2020
-### Shammie Debnath, Meggie Debnath, Smiriti Shankar, Rajeev Sowamber
+#### Shammie Debnath, Meggie Debnath, Smiriti Shankar, Rajeev Sowamber
 
 Di-Ally is a mobile application that aims to help improve access and increase support for home dialysis. This is done by connecting dialysis patients to nearby professionally trained volunteers and medical experts.
 
