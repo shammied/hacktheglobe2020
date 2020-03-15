@@ -2,8 +2,8 @@
 
 ## Landing page
 
-![Image description](landing)
+![Landing page](landing.png)
 
 ## Contact experts
 
-![Image description](expert)
+![Talk to dialysis experts](expert.png)
