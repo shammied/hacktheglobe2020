@@ -2,8 +2,8 @@
 
 ## Landing page
 
-![Landing page](landing.png | width=100 height=200)
+![Landing page](landing.png | 100x200)
 
 ## Contact experts
 
-![Talk to dialysis experts](experts.png | width=100 height=200)
+![Talk to dialysis experts](experts.png | 100x200)
