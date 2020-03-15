@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial=scale=1">
+        <title> Di-Ally </title> 
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/ae1423fa9b.js" crossorigin="anonymous"></script>
+        </head>
+
+    <body>
+        <section id="top">
+
+        </section>
+        <div class="main">
+            <h1 align="left">Di-Ally</h1> 
+        </div>
+        
+            
+        <div class="navbar">
+            <a class="active" href="#"><i class="fa fa-fw fa-home icon-4x"></i></a>
+            <a href="advice.html"><i class="fas fa-comment-medical icon-4x"></i></a>
+            <a href="#"><i class="fas fa-users icon-4x"></i></a>
+            <a href="#"><i class="fas fa-info-circle icon-4x"></i></a>
+            <a href="#"><i class="fas fa-user-circle icon-4x"></i></a>
+
+        </div>
+
+        <div class="loc">
+            <a href="#"><i class="fas fa-map-marker-alt"></i>      Home</a>
+            <b href=#> 4 Church Street</b>
+        </div>
+<!--          
+          
+        <h3>Find nearby volunteers!</h3>
+        
+        <form id="exform" action="http://maps.google.com/maps" method="get" target="googlemap">
+            Please enter your location:
+            <input type="text" name="saddr" />
+            <input type="hidden" name="daddr" value="854 Deerfield Rd, Allen, TX" />
+            <input type="submit" value="get directions" />
+        </form>
+        <iframe name="googlemap" > </iframe> -->
+
+    </div>
+    <section id="contact" class="content-section">
+              <div id="map">
+                <!-- How to change your own map point
+                         1. Go to Google Maps
+                         2. Click on your location point
+                         3. Click "Share" and choose "Embed map" tab
+                         4. Copy only URL and paste it within the src="" field below
+                  -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11548.046986033041!2d-79.36907205!3d43.64792395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1552786713873" width="850" height="550" frameborder="0" style="border:0;" allowfullscreen></iframe>
+              </div>
+        <!-- <script type="text/javascript">
+            document.getElementById('exform').submit();
+        </script> -->
+        <!--The div element for the map -->
+        <!-- <div id="map"></div>
+            <script>
+            // Initialize and add the map
+            function initMap() {
+                // The location of Uluru
+                var location = {lat: 43.651070, lng: -79.347015};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 4, center: location});
+                // The marker, positioned at location
+                var marker = new google.maps.Marker({position: location, map: map});
+            }
+            </script>
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=initMap">
+            </script> -->
+            <div class="slider">
+                <h1> Select a caregiver in your area </h1>
+                <table style="width:100%">
+                    <tr>
+                        <th> <b href="woman.png"> <img src="woman.png" width=30px height=30px> Sally M. </b></th>
+                        <th><div class="caption"> 50 people recommend Sally </div></th>
+                        <th> <a href="#"><i class="fas fa-chevron-right"></i></a></th>
+                    </tr>
+                    <tr>
+                        <th> <b href="boy.png"><img src="boy.png" width=30px height=30px> Bennet F.</b></th>
+                        <th><div class="caption"> 38 people recommend Bennet </div></th>
+                        <th> <a href="#"><i class="fas fa-chevron-right"></i></a></th>
+                    </tr>
+                    <tr>
+                        <th> <b href="woman2.png"><img src="woman2.png" width=30px height=30px> Lauren T.</b></th>
+                        <th><div class="caption"> 24 people recommend Lauren </div></th>
+                        <th> <a href="#"><i class="fas fa-chevron-right"></i></a></th>
+                    </tr>
+               
+            </table>
+            </div>
+        </body>
+
+
+</html>

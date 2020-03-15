@@ -1,0 +1,173 @@
+html, body {
+    padding:0px;
+    margin:0px;
+}
+
+.main h1 {
+    font-family: 'Pacifico', cursive;
+    color: #383448;
+    position: relative;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: 0px 1px 0px #C9C9C9;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 0px 20px 10px;
+    text-decoration: none;
+    font-size: 45px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    border-bottom: 3px solid #74B8F6;
+  }
+  
+  /* Current/active navbar link */
+  .navbar a.active {
+    border-bottom: 3px solid #74B8F6;
+  }
+
+  #top {
+    background-color: #DC5656;
+    height: 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+.chat {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: 0px 1px 0px #C9C9C9;
+    display: block;
+}
+.chat a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 0px 20px 10px;
+    text-decoration: none;
+    font-size: 45px;
+    border-bottom: 3px solid transparent;
+  }
+  .chat b:active {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 0px 20px 10px;
+    text-decoration: none;
+    font-size: 45px;
+    border-bottom: 3px solid transparent;
+  }
+  .chat h1 {
+      font-family: 'Lato', sans-serif;
+      font-size: 15px;
+      text-align: center;
+  }
+
+  .chat .name {
+    font-family: 'Lato', sans-serif;
+      font-size: 15px;
+      text-align: center;
+  }
+  .chat .job {
+    font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      color: grey;
+  }
+  /* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 40px;
+    padding: 20px 10px 10px;
+    margin: 10px 0;
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #74B8F6;
+    background-color: #74B8F6;
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 90%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+
+  .window {
+      align-content: center;
+    
+  }
+
+  textarea {
+    width: 95%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    color: grey;
+  }

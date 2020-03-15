@@ -1,0 +1,128 @@
+html, body {
+    padding:0px;
+    margin:0px;
+}
+
+.main h1 {
+    font-family: 'Pacifico', cursive;
+    color: #383448;
+    position: relative;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: 0px 1px 0px #C9C9C9;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 0px 20px 10px;
+    text-decoration: none;
+    font-size: 45px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    border-bottom: 3px solid #74B8F6;
+  }
+  
+  /* Current/active navbar link */
+  .navbar a.active {
+    border-bottom: 3px solid #74B8F6;
+  }
+  
+.loc {
+    width: 100%;
+    height: 87px;
+    overflow: auto;
+    box-shadow: 0px 5px 0px #C9C9C9;
+}
+  .loc a {
+    float: left;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+  .loc b {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #top {
+    background-color: #DC5656;
+    height: 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .slider {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 0px;
+    top: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    padding: 15px 10px 10px;
+    
+  }
+  .slider a {
+    display: block;
+    color:grey;
+    text-align: center;
+    padding: 0px 10px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+
+.caption {
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    text-align: left;
+    color: grey;
+}
+.slider b {
+    display: block;
+    color:black;
+    text-align: left;
+    padding: 0px 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+
+.slider h1 {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
